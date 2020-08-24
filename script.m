@@ -4,9 +4,9 @@ close all
 
 N=100;
 cmax = 30;
-reference = 'anim_ref'; %anim_ref
-base = 'anim_appr'; %anim_appr
-test = 'anim_test'; %anim_test
+reference = 'anim_ref'; %anim_ref (location of initial images used to generate the dataset)
+base = 'anim_appr'; %anim_appr (location of generated images)
+test = 'anim_test'; %anim_test (results)
 type_image_ref = 'bmp';
 type_image_base = 'png';
 arret_image=0;
